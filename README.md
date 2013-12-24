@@ -1,5 +1,6 @@
-DateApp
-=======
+Insert Date into DB by using jdbc
+=================================
+ 
  This is the Date application using jdbc.
  
  In java we cann't directly store string date into database date column.
