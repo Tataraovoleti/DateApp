@@ -41,8 +41,9 @@ public class DateRetrieve {
                  * ie, dd/MMM/yyyy. we can change this format
                 */
 		SimpleDateFormat sfd= new SimpleDateFormat("dd/MMM/yyyy");
+		SimpleDateFormat sfdd= new SimpleDateFormat("dd/MMM/yyyy HH:mm:ss");
                 System.out.println("Dob - "+sfd.format(ud));
-                System.out.println("Creation time - "+sfd.format(udd));
+                System.out.println("Creation time - "+sfdd.format(udd));
 		}
 		   
 	   ps.close();
